@@ -1,0 +1,8 @@
+// Component Thẻ (Card)
+.card {
+  border: 1px solid $border-color;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 6px;
+  @include box-shadow($global-box-shadow);
+}
