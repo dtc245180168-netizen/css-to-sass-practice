@@ -1,18 +1,16 @@
-// Khai báo Mixins tái sử dụng
+// Khai báo mixins tái sử dụng cho nút bấm và thẻ (box/card)
 @mixin button-style($bg-color) {
   background: $bg-color;
-  color: #ffffff;
-  padding: 10px 20px;
+  color: white;
+  padding: $padding-standard;
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  transition: opacity 0.2s ease;
-
-  &:hover {
-    opacity: 0.85;
-  }
 }
 
-@mixin box-shadow($shadow) {
-  box-shadow: $shadow;
+@mixin box-style {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: $box-shadow-default;
 }

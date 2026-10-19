@@ -1,10 +1,8 @@
-// Import tất cả các partials theo thứ tự chuẩn
+// Nhập tất cả các partials vào file chính
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
-@import "base/global";
-
-@import "layout/container";
+@import "base/typography";
 
 @import "components/buttons";
 @import "components/cards";
